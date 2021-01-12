@@ -1,3 +1,6 @@
 .body {
   background-color: #424447;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
 }

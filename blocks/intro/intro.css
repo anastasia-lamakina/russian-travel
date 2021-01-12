@@ -2,6 +2,7 @@
 @import url("./__subtitle/intro__subtitle.css");
 @import url("./__image-container/intro__image-container.css");
 @import url("./__image/intro__image.css");
+@import url("./__image-caption/intro__image-caption.css");
 
 .intro {
   padding-top: 56px;
