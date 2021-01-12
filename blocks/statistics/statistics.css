@@ -1,0 +1,30 @@
+@import url(./__title/statistics__title.css);
+@import url(./__paragraph/statistics__paragraph.css);
+@import url(./__list/statistics__list.css);
+@import url(./__list-item/statistics__list-item.css);
+@import url(./__list-item/_bold/statistics__list-item_bold.css);
+
+.statistics {
+  padding: 0 16px 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .statistics {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .statistics {
+    padding-left: 48px;
+    padding-right: auto;
+    max-width: 690px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .statistics {
+    padding-left: 148px;
+  }
+}
