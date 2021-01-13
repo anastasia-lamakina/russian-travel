@@ -2,7 +2,7 @@
 @import url(./__paragraph/statistics__paragraph.css);
 @import url(./__list/statistics__list.css);
 @import url(./__list-item/statistics__list-item.css);
-@import url(./__list-item/_bold/statistics__list-item_bold.css);
+@import url(./__bold/statistics__bold.css);
 
 .statistics {
   padding: 0 16px 0 16px;
