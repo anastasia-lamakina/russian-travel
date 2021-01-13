@@ -1,0 +1,24 @@
+.destination-card__title {
+  margin: 0;
+  padding: 0 16px 0 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+  .destination-card__title {
+    padding: 0;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .destination-card__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+}

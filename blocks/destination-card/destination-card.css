@@ -1,0 +1,63 @@
+@import url(./__title/destination-card__title.css);
+@import url(./__link-container/destination-card__link-container.css);
+@import url(./__link-heading/destination-card__link-heading.css);
+@import url(./__link/destination-card__link.css);
+@import url(./__main-text/destination-card__main-text.css);
+@import url(./__paragraph/destination-card__paragraph.css);
+@import url(./__picture/destination-card__picture.css);
+
+.destination-card {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.destination-card:not(:last-child) {
+  padding-bottom: 50px;
+}
+
+.destination-card:last-child {
+  padding-bottom: 66px;
+}
+
+@media only screen and (min-width: 768px) {
+  .destination-card {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 48px;
+    column-gap: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .destination-card:not(:last-child) {
+    padding-bottom: 72px;
+  }
+
+  .destination-card:last-child {
+    padding-bottom: 90px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .destination-card {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .destination-card:not(:last-child) {
+    padding-bottom: 80px;
+  }
+
+  .destination-card:last-child {
+    padding-bottom: 92px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .destination-card {
+    padding-left: 148px;
+    padding-right: 148px;
+  }
+}

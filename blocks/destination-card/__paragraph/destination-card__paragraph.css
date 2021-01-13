@@ -1,0 +1,14 @@
+.destination-card__paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+.destination-card__paragraph:not(:last-child) {
+  padding-bottom: 25px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .destination-card__paragraph:not(:last-child) {
+    padding-bottom: 26px;
+  }
+}

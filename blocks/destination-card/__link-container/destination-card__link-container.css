@@ -1,0 +1,10 @@
+.destination-card__link-container {
+  margin: 0;
+  padding: 0 16px 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .destination-card__link-container {
+    padding: 0;
+  }
+}

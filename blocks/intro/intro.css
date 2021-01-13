@@ -2,6 +2,7 @@
 @import url("./__subtitle/intro__subtitle.css");
 @import url("./__image-container/intro__image-container.css");
 @import url("./__image/intro__image.css");
+@import url("./__image-path/intro__image-path.css");
 @import url("./__image-caption/intro__image-caption.css");
 
 .intro {
@@ -10,7 +11,7 @@
   justify-items: center;
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .intro {
     padding-top: 48px;
   }
