@@ -1,0 +1,31 @@
+.footer__list-item {
+}
+
+.footer__list-item:hover {
+  opacity: 0.8;
+}
+.footer__list-item:not(:last-of-type) {
+  padding-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__list-item {
+    flex-direction: row;
+  }
+
+  .footer__list-item:not(:last-of-type) {
+    padding-bottom: 0;
+    padding-right: 18px;
+  }
+}
+/*
+.footer__list-item:first-of-type {
+  padding-top: 64px;
+  padding-bottom: 16px;
+}
+
+
+.footer__list-item:last-of-type {
+  padding-top: 16px;
+  padding-bottom: 48px;
+} */

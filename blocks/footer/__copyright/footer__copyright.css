@@ -1,0 +1,25 @@
+.footer__copyright {
+  margin: 0;
+  padding: 0 0 24px 16px;
+  display: grid;
+  align-items: end;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__copyright {
+    padding-left: 0;
+    padding-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer__copyright {
+    padding-right: 48px;
+  }
+}
