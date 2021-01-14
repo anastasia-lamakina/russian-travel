@@ -24,14 +24,10 @@
 @media only screen and (min-width: 1024px) {
   .trains__container-title {
     padding-top: 195px;
-    font-size: 72px;
-    line-height: 76px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .trains__container-title {
     padding-top: 245px;
-    font-size: 72px;
-    line-height: 76px;
   }
 }

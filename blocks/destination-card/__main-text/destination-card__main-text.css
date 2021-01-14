@@ -17,5 +17,6 @@
 @media only screen and (min-width: 1024px) {
   .destination-card__main-text {
     font-size: 18px;
+    line-height: 29px;
   }
 }
